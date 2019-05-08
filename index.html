@@ -8,7 +8,7 @@
                 text-align:center;
                 margin-left:auto;
                 margin-right:auto;
-                width:500px;
+                width:100%;
                 border:1px dashed;
                 border-collapse: collapse;
             }
@@ -18,9 +18,12 @@
             }
             #main{
                 margin:auto;
-                margin-top:80px;
-                margin-left:100px;
-                margin-right:100px;
+                margin-top:40px;
+                margin-left:20px;
+                margin-right:20px;
+            }
+            table#first.td{
+                width:50%;
             }
         </style>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -37,9 +40,9 @@
         <br/>
         <h2>클랜 관련 링크</h2>
         <br/>
-        <table>
+        <table id="first">
         <tr>
-            <td>📝 클랜 통합문서 (시트)</td>
+            <td >📝 클랜 통합문서 (시트)</td>
             <td><a href = "https://goo.gl/nurbLT" target="_blank">https://goo.gl/nurbLT</a></td>
         </tr>
         <tr>
@@ -59,10 +62,10 @@
         </table>
         <br/>
         <h2>팀 시트 링크</h2>
-        <table>
+        <table id="second">
         <tr>
-            <td>🍖 팀 고기팟</td>
-            <td><a href = "https://bit.ly/2VmHUho" target="_blank">https://bit.ly/2VmHUho</a></td>        
+            <td width="30%">🍖 팀 고기팟</td>
+            <td width="70%"><a href = "https://bit.ly/2VmHUho" target="_blank">https://bit.ly/2VmHUho</a></td>        
         </tr>
         <tr>
             <td>🍋 팀 Vitamin</td>
