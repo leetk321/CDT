@@ -1,29 +1,36 @@
 body {
-    font-family:'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     text-align: center;
 }
 
 img {
-vertical-align: middle;
-}
-
-.title{
-    font-weight:800;
     vertical-align: middle;
-    margin:5px;
-    font-size:32px;
 }
 
-.subtitle{
-    font-weight:700;
-    margin:5px;
-    font-size:20px;
+.title {
+    font-weight: 800;
+    vertical-align: middle;
+    margin: 5px;
+    font-size: 32px;
 }
-.bottomtext{
-    font-weight:700;
-    margin:5px;
-    font-size:12px;    
+
+.subtitle {
+    font-weight: 700;
+    margin: 5px;
+    font-size: 20px;
 }
+
+.bottomtext {
+    font-weight: 700;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.hide {
+    color: #7f7f7f;
+    font-size: 10px;
+}
+
 #main {
     margin: auto;
     margin-top: 40px;
