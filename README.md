@@ -1,2 +1,0 @@
-# CDT
-CLAN CDT : Webpage
