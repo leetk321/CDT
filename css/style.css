@@ -5,6 +5,23 @@ body {
     text-align: center;
 }
 
+img {
+vertical-align: middle;
+}
+
+.title{
+    font-weight:700;
+    vertical-align: middle;
+    margin:5px;
+    font-size:32px;
+}
+
+.subtitle{
+    font-weight:600;
+    margin:5px;
+    font-size:20px;
+}
+
 #main {
     margin: auto;
     margin-top: 40px;
