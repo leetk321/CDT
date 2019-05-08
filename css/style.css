@@ -1,6 +1,7 @@
 body {
     font-family: 'Nanum Gothic', sans-serif;
     text-align: center;
+    background-image:url(../background.png);
 }
 
 img {
@@ -32,10 +33,12 @@ img {
 }
 
 #main {
-    margin: auto;
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    position:absolute;
+    padding:40px;
+    background-color:rgba(255,255,255,0.4);
+    width:750px;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
 }
 
 .button {
