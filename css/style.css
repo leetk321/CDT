@@ -104,6 +104,7 @@ button:hover {
 @media all and (max-width:530px) {
     body {
         max-width:1000px;
+        background-size:560px 1000px;
     }
     
     img {
