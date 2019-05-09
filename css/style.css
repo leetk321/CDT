@@ -103,8 +103,8 @@ button:hover {
 /* 모바일 또는 폭이 좁을 때 : 한 줄로만 나열 */
 @media all and (max-width:530px) {
     body {
+        max-height:530px;
         max-width:1000px;
-        background-size:560px 1000px;
     }
     
     img {
