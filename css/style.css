@@ -102,6 +102,10 @@ button:hover {
 
 /* 모바일 또는 폭이 좁을 때 : 한 줄로만 나열 */
 @media all and (max-width:530px) {
+    body {
+        max-width:1000px;
+    }
+    
     img {
         left: 50%;
         display: block;
@@ -123,7 +127,7 @@ button:hover {
         width: 220px;
         left: 50%;
         padding: 20px 40px 20px 40px;
-        transform: translate(-50%, 0%);
+        transform: translate(-50%, 5%);
     }
 
     div.bt {
