@@ -1,7 +1,7 @@
 body {
     font-family: 'Nanum Gothic', sans-serif;
     text-align: center;
-    background-image:url(../background.png);
+    background-image: url(../background.png);
 }
 
 img {
@@ -33,12 +33,9 @@ img {
 }
 
 #main {
-    position:absolute;
-    padding:40px;
-    background-color:rgba(255,255,255,0.4);
-    width:750px;
-    top:50%; left:50%;
-    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .button {
@@ -58,7 +55,7 @@ img {
 }
 
 button:hover {
-  color: #000000;
+    color: #000000;
 }
 
 .button1 {
@@ -95,7 +92,95 @@ button:hover {
     background-color: #e06666;
 }
 
+.bt {
+    display: inline;
+}
+
+.box {
+    margin-bottom: 40px;
+}
+
+/* 모바일 또는 폭이 좁을 때 : 한 줄로만 나열 */
+@media all and (max-width:530px) {
+    img {
+        left: 50%;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-weight: 700;
+        margin: 5px;
+        font-size: 17px;
+    }
+
+    #main {
+        width: 220px;
+        left: 50%;
+        padding: 20px 40px 20px 40px;
+        transform: translate(-50%, 0%);
+    }
+
+    div.bt {
+        margin: auto;
+        width: 50%;
+    }
+
+    .bottomtext {
+        font-weight: 700;
+        margin: 5px;
+        font-size: 10px;
+    }
+
+    .button {
+        border: none;
+        color: white;
+        padding: 3px 15px;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        border-radius: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 15px;
+    }
+
+    .box {
+        margin-bottom: 15px;
+    }
+
+}
+
+/* 모바일 또는 폭이 좁을 때 : 한 줄 또는 두 줄로 나열 */
+@media all and (min-width:530px) and (max-width:840px) {
+    #main {
+        width: 450px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    div.bt {
+        margin: auto;
+        width: 50%;
+    }
+}
+
+/* 데스크탑 기본 */
+@media all and (min-width:840px) {
+    #main {
+        width: 750px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
 </style >
-
-
-
