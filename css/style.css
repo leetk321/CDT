@@ -1,7 +1,6 @@
 body {
     font-family: 'Nanum Gothic', sans-serif;
     text-align: center;
-    background-image: url(../background.png);
 }
 
 img {
@@ -169,6 +168,7 @@ button:hover {
     body {
         max-height:840px;
         max-width:1000px;
+        background-image: url(../background.png);
     }
     #main {
         width: 450px;
@@ -184,6 +184,9 @@ button:hover {
 
 /* 데스크탑 기본 */
 @media all and (min-width:840px) {
+    body{
+        background-image: url(../background.png);
+    }
     #main {
         width: 750px;
         top: 50%;
