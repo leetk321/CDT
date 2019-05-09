@@ -102,10 +102,10 @@ button:hover {
 /* 모바일 또는 폭이 좁을 때 : 한 줄로만 나열 */
 @media all and (max-width:530px) {
     body {
-        max-height:530px;
-        max-width:1000px;
+        max-height: 530px;
+        max-width: 1000px;
     }
-    
+
     img {
         left: 50%;
         display: block;
@@ -125,6 +125,7 @@ button:hover {
 
     #main {
         width: 220px;
+        top: 10%;
         left: 50%;
         padding: 20px 40px 20px 40px;
         transform: translate(-50%, 10%);
@@ -166,12 +167,14 @@ button:hover {
 /* 모바일 또는 폭이 좁을 때 : 한 줄 또는 두 줄로 나열 */
 @media all and (min-width:530px) and (max-width:840px) {
     body {
-        max-height:840px;
-        max-width:1000px;
+        max-height: 840px;
+        max-width: 1000px;
         background-image: url(../background.png);
     }
+
     #main {
         width: 450px;
+        top: 10%;
         left: 50%;
         transform: translate(-50%, 10%);
     }
@@ -184,9 +187,10 @@ button:hover {
 
 /* 데스크탑 기본 */
 @media all and (min-width:840px) {
-    body{
+    body {
         background-image: url(../background.png);
     }
+
     #main {
         width: 750px;
         top: 50%;
