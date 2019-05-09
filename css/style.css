@@ -36,6 +36,7 @@ img {
     position: absolute;
     padding: 40px;
     background-color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 40px;
 }
 
 .button {
@@ -102,9 +103,6 @@ button:hover {
 
 /* 모바일 또는 폭이 좁을 때 : 한 줄로만 나열 */
 @media all and (max-width:530px) {
-    body {
-        min-height:1200px;
-    }
 
     img {
         left: 50%;
@@ -166,9 +164,6 @@ button:hover {
 
 /* 모바일 또는 폭이 좁을 때 : 한 줄 또는 두 줄로 나열 */
 @media all and (min-width:530px) and (max-width:840px) {
-    body {
-        background-image: url(../background.png);
-    }
 
     #main {
         width: 450px;
@@ -185,9 +180,6 @@ button:hover {
 
 /* 데스크탑 기본 */
 @media all and (min-width:840px) {
-    body {
-        background-image: url(../background.png);
-    }
 
     #main {
         width: 750px;
