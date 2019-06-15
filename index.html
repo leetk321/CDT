@@ -12,15 +12,33 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-139880606-1');
-        
-        function btn11(){
+
+        function btn11() {
             alert('준비중입니다');
         }
-        
+
+    </script>
+
+    <!-- 디스코드 위젯 -->
+    <script type="text/javascript" src="discord-widget-master/discord-widget.min.js"></script>
+    <script type="text/javascript">
+        discordWidget.init({
+            serverId: '485197428010778624',
+            title: 'CDT 디스코드 현황',
+            join: true,
+            alphabetical: false,
+            theme: 'dark',
+            hideChannels: ['Channel Name 1', 'Channel Name 2'],
+            showAllUsers: true,
+            allUsersDefaultState: true,
+            showNick: false
+        });
+        discordWidget.render();
+
     </script>
 
     <style type="text/css">
-        @import url("css/style.css?ver=2.5");
+        @import url("css/style.css?ver=2.6");
 
     </style>
     <meta name="mobile-web-app-capable" content="yes">
@@ -61,7 +79,7 @@
             <font class="hide">관리자 페이지</font>
         </a>
     </div>
-
+    <!--<div class="discord-widget"></div>-->
 </body>
 
 </html>
