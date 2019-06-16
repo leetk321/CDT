@@ -156,10 +156,9 @@ button:hover {
         margin-bottom: 15px;
     }
     
-    .button img {
-    width:14px;
-    height:14px;
-}
+    .button img{
+        display:none;
+    }
 
 }
 
