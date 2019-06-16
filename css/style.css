@@ -55,8 +55,8 @@ img {
 }
 
 .button img {
-    width:18px;
-    height:18px;
+    width: 18px;
+    height: 18px;
 }
 
 button:hover {
@@ -97,6 +97,14 @@ button:hover {
     margin-bottom: 20px;
 }
 
+.left_side {
+    width: 100%;
+}
+
+.right_side {
+    width:100%;
+}
+
 /* 모바일 또는 폭이 좁을 때 : 한 줄로만 나열 */
 @media all and (max-width:530px) {
 
@@ -132,8 +140,10 @@ button:hover {
 
     .bottomtext {
         font-weight: 700;
-        margin: 5px;
-        font-size: 10px;
+        margin: 5px 0px 5px 0px;
+        font-size: 11px;
+        word-break:keep-all;
+        text-align:center;
     }
 
     .button {
@@ -155,9 +165,9 @@ button:hover {
     .box {
         margin-bottom: 15px;
     }
-    
-    .button img{
-        display:none;
+
+    .button img {
+        display: none;
     }
 
 }
@@ -179,13 +189,30 @@ button:hover {
 }
 
 /* 데스크탑 기본 */
-@media all and (min-width:840px) {
-
+@media all and (min-width:840px) and (max-width:1240px) {
     #main {
         width: 750px;
         top: 5%;
         left: 50%;
         transform: translate(-50%, 0%);
+    }
+}
+
+/* 데스크탑 와이드 */
+@media all and (min-width:1240px) {
+    #main {
+        width: 1150px;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    .left_side{
+        width:750px;
+        float:left;
+    }
+    .right_side{
+        width:400px;
+        float:right;
     }
 }
 
