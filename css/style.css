@@ -100,8 +100,9 @@ button:hover {
     margin-bottom: 20px;
 }
 
-.discord-widget {
-    margin-top: 15px;
+.box2 {
+    margin-top: 35px;
+    margin-bottom: 20px;
 }
 
 /* 모바일 또는 폭이 좁을 때 : 한 줄로만 나열 */
