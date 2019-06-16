@@ -24,14 +24,14 @@
     <script type="text/javascript">
         discordWidget.init({
             serverId: '485197428010778624',
-            title: 'CDT 디스코드 현황',
-            join: true,
+            title: '클랜 디스코드 현황',
+            join: false,
             alphabetical: false,
             theme: 'dark',
-            hideChannels: ['Channel Name 1', 'Channel Name 2'],
+            hideChannels: false,
             showAllUsers: true,
             allUsersDefaultState: true,
-            showNick: false
+            showNick: true
         });
         discordWidget.render();
 
@@ -78,8 +78,10 @@
         <a href="https://goo.gl/NAdP7F" target="_blank">
             <font class="hide">관리자 페이지</font>
         </a>
+        <br/><br/>
+            <div class="discord-widget"></div>
     </div>
-    <!--<div class="discord-widget"></div>-->
+
 </body>
 
 </html>
