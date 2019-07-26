@@ -1,6 +1,6 @@
 body {
     font-family: 'Nanum Gothic', sans-serif;
-    text-align: center;
+    text-align: left;
     background-image: url(../background.png);
     overflow-x:hidden;
 }
@@ -20,6 +20,7 @@ img {
     font-weight: 700;
     margin: 5px;
     font-size: 20px;
+    text-align:center;
 }
 
 .bottomtext {
@@ -206,11 +207,11 @@ button:hover {
         transform: translate(-50%, 0%);
     }
     .left_side{
-        width:750px;
+        width:100%;
         float:left;
     }
     .right_side{
-        width:400px;
+        width:0%;
         float:right;
     }
 }
